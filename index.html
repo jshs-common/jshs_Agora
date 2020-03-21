@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+        body {
+            overflow-y: hidden; 
+            overflow-x: hidden;
+        }
+
+        @media ( max-width: 576px ) {
+            body {
+            overflow-y: auto; 
+            overflow-x: auto;
+            }
+        }
+
+        .col-1{
+            padding-left: 1%;
+            padding-right: 0;
+            padding-top:1%;
+        }
+    </style>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">제곽아고라</a>
+            <!-- <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                </ul>
+            </div> -->
+        </nav>
+        <div class="container-fluid">
+            <div class="row z-index: 1;">
+                <div class="col-xs-3 col-sm-2" id="sub" style="z-index: 50; padding-left:0;padding-right: 0;">
+                    <div class="name">PHYSICS</div>
+                    <img id="phy" src="images/phy.png" alt="">
+                </div>
+                <div class="col-xs-3 col-sm-2" id="sub" style="z-index: 40; padding-left:0; padding-right: 0;">
+                    <div class="name" style="font-size: 2.5em;"> MATHEMATICS</div>
+                    <img id="math" src="images/math.png" alt="">
+                </div>
+                <div class="col-xs-3 col-sm-2" id="sub" style="z-index: 30; padding-left:0; padding-right: 0;">
+                    <div class="name">CHEMISTRY</div>
+                    <img id="chem" src="images/chem.png" alt="">
+                </div>
+                <div class="col-xs-3 col-sm-2" id="sub" style="z-index: 20; padding-left:0; box-shadow: none; padding-right: 0;">
+                    <div class="name">ALGORITHM</div>
+                    <img id="com" src="images/com.png" alt="">
+                </div>
+                <div class="col-sm-4" style="padding-top:10%; font-size:1.5em; text-align: center;" id="login">
+                    L O G I N
+                    <div class="login-form"><br>
+                        <form method="POST" action="login_check.php">
+                            <input type="text" name="username" id="username-field" class="login-form-field" placeholder="ID">
+                            <input type="password" name="password" id="password-field" class="login-form-field" placeholder="PW">
+                            <br>
+                            <input type="submit" value="로 그 인" id="login-form-submit">
+                        </form>
+                        <br>
+                        <a class="descript" href="#" style="font-size: 0.5em; color:black;">회원가입</a><br>
+                        <a class="descript" href="#" style="font-size: 0.5em; color:black;">아이디, 비밀번호를 까먹으셨다면?</a>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </footer>
+</html>
